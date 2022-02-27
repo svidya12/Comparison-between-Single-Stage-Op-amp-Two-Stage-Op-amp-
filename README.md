@@ -41,9 +41,15 @@ Minimum Output swing = |VOD6|
 ###### Fig 1.2 Schematic Diagram of Two Stage Op-amp
 # Output Waveforms of the circuits
 ## Single Stage Op-amp
-###### Fig 1.3 Output Waveform of Single Stage Op-amp
+![image](https://user-images.githubusercontent.com/70511616/155885269-2691d830-c5cf-4b61-9b56-5a1659217157.png)
+###### Fig 1.3 Output Waveform of Single Stage Op-amp Gain
+![image](https://user-images.githubusercontent.com/70511616/155885369-0aac8c0f-7e60-4c7a-877c-5da84487bcdf.png)
+###### Fig 1.4 Output Waveform of Single Stage Op-amp Phase Margin
 ## Two Stage Op-amp
-###### Fig 1.4 Output Waveform of Two Stage Op-amp
+![image](https://user-images.githubusercontent.com/70511616/155885459-9ff247fd-c290-485a-983b-24a2780e578b.png)
+###### Fig 1.5 Output Waveform of Two Stage Op-amp Gain
+![image](https://user-images.githubusercontent.com/70511616/155885537-ce4ef0a9-ac9b-45ed-a963-b1a1f264df91.png)
+###### Fig 1.6 Output Waveform of Two Stage Op-amp Phase Margin
 # Netlist of the circuits
 ## Single Stage Op-amp
 *  Generated for: PrimeSim
