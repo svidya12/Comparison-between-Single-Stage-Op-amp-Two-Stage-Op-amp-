@@ -2,7 +2,17 @@
 This repository presents the design of Single Stage and Two Stage Op-amp, implemented using Synopsis Custom Compiler on 28nm CMOS Technology.
 # Table of Contents
 - Abstract
-- Introductio
+- Introduction
+- Drawbacks of Single Stage Op-amp
+- Two Stage op-amp
+- Design Specification
+- Schematic Diagram of the circuits
+- Output Waveforms of the Circuits
+- Netlist of the circuits
+- Conclusion
+- Author
+- Acknowledgements
+- References
 # Abstract
 Here in this project, we have desgined the single stage op-amp and two stage op-amp at 28nm technology with desgin specifications using Synopsis tool. We compared the gain and phase margin of two different stages of op-amp, and concludes that maximum gain is acheiveable in two stage op-amp rather than single stage op-amp without effecting the output swing and other parameters,
 # Introduction
@@ -24,17 +34,17 @@ Minimum Output swing = |VOD6|
 # Design Specification
 ###### Table 1.1 Design Specification of single stage and two stage op-amp
 ![image1](https://user-images.githubusercontent.com/70511616/155881958-9835c3b0-a8ac-4dc8-a2fc-5af3f32d5214.png)
-# Schematic Diagram
+# Schematic Diagram of the circuits
 ![image](https://user-images.githubusercontent.com/70511616/155883260-78ec9419-57de-4416-89ca-d3776d6bf7fe.png)
 ###### Fig 1.1 Schematic Diagram of One Stage Op-amp
 ![image](https://user-images.githubusercontent.com/70511616/155882408-33afe77f-f641-43df-8ab6-a4114c151521.png)
 ###### Fig 1.2 Schematic Diagram of Two Stage Op-amp
-# Output Waveforms
+# Output Waveforms of the circuits
 ## Single Stage Op-amp
 ###### Fig 1.3 Output Waveform of Single Stage Op-amp
 ## Two Stage Op-amp
 ###### Fig 1.4 Output Waveform of Two Stage Op-amp
-# Netlist of the circuit
+# Netlist of the circuits
 ## Single Stage Op-amp
 *  Generated for: PrimeSim
 *  Design library name: analog_ic_design
@@ -160,3 +170,7 @@ S VIDYA, M.tech in Microelectronics & VLSI, Motilal Nehru National Institute of 
 - [Synopsys India](https://www.synopsys.com/)
 - [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
 # References
+1. P. Allen and D. Holmberg “CMOS Analog Circuit Design”,2nd Edition. Saunders college publishing/HRW, Philadelphia, PA, 1998.
+2. B. Razavi, “Design of Analog CMOS Integrated Circuits”, New York: Mc-Graw-Hill, 2001.
+3. Sung Mo Kang, Yusuf Leblebici, CMOS Digital Integrated Circuits, 14th reprint, 2003.
+4. P.R. Gray and R.G. Meyer, “MOS Operational Amplifier Design – A Tutorial Overview,” IEEE J. of Solid-StateCircuits, Vol. 17, pp. 969-982, Dec. 1982.
