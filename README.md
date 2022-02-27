@@ -1,4 +1,8 @@
 # Comparison-between-Single-Stage-Op-amp-Two-Stage-Op-amp-
+This repository presents the design of Single Stage and Two Stage Op-amp, implemented using Synopsis Custom Compiler on 28nm CMOS Technology.
+# Table of Contents
+- Abstract
+- Introductio
 # Abstract
 Here in this project, we have desgined the single stage op-amp and two stage op-amp at 28nm technology with desgin specifications using Synopsis tool. We compared the gain and phase margin of two different stages of op-amp, and concludes that maximum gain is acheiveable in two stage op-amp rather than single stage op-amp without effecting the output swing and other parameters,
 # Introduction
@@ -21,10 +25,15 @@ Minimum Output swing = |VOD6|
 ###### Table 1.1 Design Specification of single stage and two stage op-amp
 ![image1](https://user-images.githubusercontent.com/70511616/155881958-9835c3b0-a8ac-4dc8-a2fc-5af3f32d5214.png)
 # Schematic Diagram
-![image](https://user-images.githubusercontent.com/70511616/155882200-589cee0a-a37f-478f-ac4f-fd80af56e446.png)
+![image](https://user-images.githubusercontent.com/70511616/155883260-78ec9419-57de-4416-89ca-d3776d6bf7fe.png)
 ###### Fig 1.1 Schematic Diagram of One Stage Op-amp
 ![image](https://user-images.githubusercontent.com/70511616/155882408-33afe77f-f641-43df-8ab6-a4114c151521.png)
 ###### Fig 1.2 Schematic Diagram of Two Stage Op-amp
+# Output Waveforms
+## Single Stage Op-amp
+###### Fig 1.3 Output Waveform of Single Stage Op-amp
+## Two Stage Op-amp
+###### Fig 1.4 Output Waveform of Two Stage Op-amp
 # Netlist of the circuit
 ## Single Stage Op-amp
 *  Generated for: PrimeSim
@@ -142,3 +151,12 @@ c11 net14 output c=800f
 
 
 .end
+# Conclusion
+This project analyzed the behaviour of Single stage and Two stage op-amp. The simulated result shows that the designed operational amplifier has successfully satisfied all the given specifications and differences in output waves can be oserved. So we can finally concluded that for high gain and high output swing, we have to prefer the two stage op-amp rather than single stage op-amp.
+# Author
+S VIDYA, M.tech in Microelectronics & VLSI, Motilal Nehru National Institute of Technology, Allahabad 211004
+# Acknowledgements
+- [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+- [Synopsys India](https://www.synopsys.com/)
+- [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.vlsisystemdesign.com/)
+# References
